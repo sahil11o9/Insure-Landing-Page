@@ -1,0 +1,250 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* NavBar */
+nav {
+  display: inline;
+  z-index: 6;
+}
+nav.n2 {
+  float: right;
+}
+nav img {
+  /* width: 100%; */
+  margin-top: 2rem;
+  margin-left: 8rem;
+}
+nav ul {
+  display: flex;
+  float: right;
+  margin-top: 1rem;
+  margin-right: 7.5rem;
+}
+nav ul li {
+  list-style: none;
+  padding: 1rem;
+  cursor: pointer;
+  color: gray;
+}
+nav ul li:hover {
+  color: black;
+}
+button.btn1 {
+  background-color: white;
+  padding: 1rem;
+  cursor: pointer;
+  border: 1px solid black;
+}
+button.btn1:hover{
+    background-color: hsl(256, 26%, 20%);
+    color: white;
+}
+
+/* Page 1 */
+section#p-1 {
+  min-height: 42rem;
+}
+.box {
+  display: inline-flex;
+  margin-top: 1rem;
+  position: relative;
+  max-height: 28em;
+  background-color: hsl(256, 26%, 20%);
+  z-index: 2;
+}
+.box-1 {
+  margin-top: 1.5rem;
+  height: 10rem;
+  padding: 8rem;
+  font-size: 2rem;
+  padding-top: 3rem;
+  padding-left: 9rem;
+  padding-right: 0;
+  z-index: 2;
+}
+.line-1 {
+  width: 7rem;
+  margin-bottom: 2rem;
+}
+.box-1 h1 {
+  color: white;
+}
+.box-1 p {
+  color: white;
+  font-size: 1rem;
+}
+.btn2{
+  color: white;
+  border: 1px solid white;
+  padding: 1rem;
+  background-color: hsl(256, 26%, 20%);
+  cursor: pointer;
+  margin-top: 1rem;
+}
+.btn2:hover{
+    color: black;
+    background-color: white;
+}
+.right {
+  display: inline;
+  float: right;
+  position: absolute;
+  width: 100vw;
+  /* z-index: -1; */
+}
+img.intro-right {
+  position: relative;
+  width: 22%;
+  /* padding-left: 54rem; */
+  overflow: hidden;
+  z-index: 4;
+  float: right;
+}
+img.intro-left {
+  margin-top: 21rem;
+  position: absolute;
+  width: 10%;
+}
+.box-2 {
+  margin-right: 25rem;
+  margin-top: 4rem;
+  margin-bottom: 14rem;
+}
+.box-2 img {
+  width: 160%;
+  padding-left: 5.5rem;
+}
+
+/* Page 2 */
+.line-2 {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  width: 7rem;
+  color: gray;
+  border: 1px solid;
+}
+.b1 {
+  padding-left: 9rem;
+}
+section#p-2 {
+  margin-top: 7rem;
+}
+section#p-2 h1 {
+  font-size: 3.5rem;
+}
+img#p2-logos {
+  width: 13%;
+}
+.b2 {
+  display: inline-flex;
+  padding: 10rem;
+  padding-top: 3rem;
+}
+div#s {
+  display: inline-flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+/* Page 3 */
+section#p-3 {
+  background-color: hsl(256, 26%, 20%);
+  height: 25vh;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  padding-bottom: 4.5rem;
+  background-image: url(../All/InsureLanding/bg-pattern-how-we-work-desktop.svg);
+  background-repeat: no-repeat;
+  background-position-x: right;
+}
+section#p-3 h1 {
+  color: white;
+  font-size: 3.5rem;
+  padding: 2rem;
+  margin-left: 2rem;
+  display: inline-block;
+}
+.btn3 {
+  color: white;
+  border: 1px solid white;
+  padding: 1rem;
+  background-color: hsl(256, 26%, 20%);
+  cursor: pointer;
+  float: right;
+  margin-top: 5rem;
+  margin-right: 7rem;
+}
+.btn3:hover{
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    border: none;
+}
+section#p-4 {
+  margin-top: 7rem;
+  background-color: hsl(0, 0%, 98%);
+  height: 60%;
+  padding: 10rem;
+  padding-top: 3rem;
+  background-image: url(../All/InsureLanding/bg-pattern-footer-desktop.svg);
+  background-repeat: no-repeat;
+  padding-bottom: 0;
+}
+.container {
+  display: inline;
+  margin-bottom: 2rem;
+}
+.logo {
+  display: inline-flex;
+}
+.icons {
+  float: right;
+  margin-top: -7px;
+  cursor: pointer;
+  color: gray;
+}
+.icons:hover img{
+    color: black;
+}
+.line-3 {
+  margin-top: 1.5rem;
+  margin-bottom: 3.5rem;
+  color: gray;
+}
+div.lower-1 {
+  width: 99%;
+  /* background-color: green; */
+  height: 100%;
+}
+.heading {
+  display: flex;
+  color: gray;
+  padding: 0;
+}
+.heading h5 {
+}
+.heading ul {
+  margin-top: 2rem;
+  list-style: none;
+  color: black;
+}
+.dabba {
+  padding: 8rem;
+  padding-left: 0;
+  padding-top: 0;
+  font-size: 1.3rem;
+}
+.dabba ul li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+@media screen and (max-width: 1400px){
+  section#p-3{
+    height: 24vh;
+  } 
+  section#p-3 h1{
+    padding: 2rem;
+  }
+}
